@@ -1,0 +1,16 @@
+{
+  "name": "anonchatbot",
+  "main": "worker.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "dependencies": {
+    "telegram-keyboard": "^2.3.5"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "^4.19.1"
+  }
+}
