@@ -161,7 +161,7 @@ POST https://api.telegram.org/bot<token>/setWebhook?url=<ngrok-url>
 * Go to the Cloudflare Dashboard:
 
   * **Workers & Pages** > Your Worker
-  * **Settings** > **Build** > **Variables and Secrets**
+  * **Settings** > **Variables and Secrets**
   * Add your `TELEGRAM_BOT_TOKEN` secret.
 
 ### Publish Your Worker
